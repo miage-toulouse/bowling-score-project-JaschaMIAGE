@@ -1,0 +1,5 @@
+.idea
+*.iml
+
+#Tous les points class sont généré automatiquement. Pas besoin de les mettre dans Git.
+*.class

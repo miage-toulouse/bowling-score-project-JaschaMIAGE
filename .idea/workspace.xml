@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77fc427d-4523-4d5f-8d7f-699a7508284a" name="Default Changelist" comment="" />
+    <list default="true" id="77fc427d-4523-4d5f-8d7f-699a7508284a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/miage/jvol/bowling/Bowling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/miage/jvol/bowling/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/miage/jvol/bowling/Joueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/miage/jvol/bowling/Piste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/miage/jvol/bowling/FrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/miage/jvol/bowling/JoueurTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myElementSize" value="296" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +42,21 @@
   </component>
   <component name="ProjectId" id="1UFj2ECQyW8wtjBIxffH3Bq2UWz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="miage.jvol.bowling" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -32,6 +69,45 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.FrameTest.isValide">
+    <configuration name="FrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miage.jvol.bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="miage.jvol.bowling" />
+      <option name="MAIN_CLASS_NAME" value="miage.jvol.bowling.FrameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameTest.isValide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miage.jvol.bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="miage.jvol.bowling" />
+      <option name="MAIN_CLASS_NAME" value="miage.jvol.bowling.FrameTest" />
+      <option name="METHOD_NAME" value="isValide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FrameTest.isValide" />
+        <item itemvalue="JUnit.FrameTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574959027305</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1575550424607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575550424607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -57,5 +141,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bowling$FrameTest.ic" NAME="FrameTest Coverage Results" MODIFIED="1575552126492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>miage.jvol.bowling.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bowling$FrameTest_isValide.ic" NAME="FrameTest.isValide Coverage Results" MODIFIED="1575554184884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>miage.jvol.bowling.*</FILTER>
+    </SUITE>
   </component>
 </project>
